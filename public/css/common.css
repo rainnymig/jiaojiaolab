@@ -1,0 +1,162 @@
+body{
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, hr{
+    color: #bbbbbb;
+}
+
+div, h1, h2, h3, h4, h5, h6, p, label, hr{
+    font-family: 微软雅黑;
+}
+
+a{
+    color: #999999;
+}
+a:link{
+    text-decoration: none;
+    color: #999999;
+}
+a:visited{
+    text-decoration: none;
+    color: #999999;
+}
+a:hover{
+    text-decoration: none;
+    color: #999999;
+}
+a:active{
+    text-decoration: none;
+    color: #999999;
+}
+
+nav.steam-navbar{
+	border: none;
+}
+
+.navbar li a.steam-navbar-item, a.steam-navbar-brand{
+	height: 70px;
+	padding: 25px;
+    margin: 0px;
+}
+
+.nav li p.steam-navbar-username, .nav li a.steam-navbar-control{
+	height: 70px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+}
+
+.navbar li img.steam-navbar-avatar{
+    margin: 10px;
+    width: 50px;
+}
+
+img.full-image{
+	width: 100%;
+}
+
+.round-corner{
+	border-radius: 50%;
+}
+
+img.glow-image:hover{
+	box-shadow: 0 0 50px rgba(250, 250, 250, 0.5);
+	transition: box-shadow .2s linear;
+}
+
+img.glow-image{
+	transition: box-shadow .2s linear;
+}
+
+
+div.dummy{
+	height: 20%;
+}
+
+div.little-dummy{
+	height: 50px;
+}
+
+div.tiny-dummy{
+    height: 25px;
+}
+
+.steam-login-btn{
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+
+button.btn-transparent{
+	background: transparent;
+	border: 1px solid rgb(215, 215, 215);
+	color: rgb(215, 215, 215);
+}
+
+button.btn-transparent:hover{
+	color: rgb(215, 215, 215);
+}
+
+.glow-effect:hover{
+	box-shadow: 0 0 10px rgba(250, 250, 250, 0.5);
+	transition: box-shadow .2s linear;
+}
+
+.glow-effect{
+	transition: box-shadow .2s linear;
+}
+
+footer.steam-footer{
+    height: 80px;
+    background-color: rgba(40, 40, 40, 1);
+    text-align: center;
+}
+
+.footer-info{
+    margin: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pos-relative{
+	position: relative;
+}
+
+.pos-absolute{
+	position: absolute;
+}
+
+.vertical-center-parent{
+    display: table; 
+}
+
+.vertical-center-element{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.loading-container{
+    height: 200px;
+    text-align: center;
+}
+
+.steam-modal{
+    z-index: 1050;
+}
+
+.steam-modal p, .steam-modal h4, .steam-modal label, .steam-modal div{
+    color: #333333;
+}
+
+.superslide-description-container a{
+    color: #eeeeee; 
+}

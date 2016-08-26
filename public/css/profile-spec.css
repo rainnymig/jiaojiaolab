@@ -1,0 +1,125 @@
+div#mainTitleDiv{
+	background-color: rgba(40, 40, 40, 0.6);
+}
+
+p#playerMainName{
+    font-size: 24px;
+}
+
+p#playerMainState{
+
+}
+
+p#playerLastLogoff{
+
+}
+
+div#mainContentContainer{
+    margin-top: 30px;
+}
+
+img.player-main-avatar{
+    width: 160px;
+    border-radius: 50%;
+    position: relative;
+    margin: 20px;
+    /*
+    animation: avatarPopin 0.4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    -webkit-animation: avatarPopin 0.4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    */
+}
+
+div.player-info-frame{
+    height: 200px;
+}
+
+.display-section{
+    border:10px solid transparent; 
+    background-clip: padding-box;   
+    background-color: rgba(40, 40, 40, 0.6);
+}
+
+.display-section-12{
+    position: relative;
+    width: 100%;
+    float: left;
+    min-height: 1px;
+}
+
+.display-section-6{
+    position: relative;
+    width: 50%;
+    float: left;
+    min-height: 1px;
+}
+
+.display-section-4{
+    position: relative;
+    width: 33.33333%;
+    float: left;
+    min-height: 1px;
+}
+
+.display-section-8{
+    position: relative;
+    width: 66.66667%;
+    float: left;
+    min-height: 1px;
+}
+
+.display-section-title{
+    color: #bbbbbb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-bottom: 1px solid #444444;
+}
+
+.display-section-subtitle{
+    font-size: 14px;
+}
+
+.display-section-body{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div.friend-info-card{
+    background-color: rgba(40, 40, 40, 1);
+    padding: 5px;
+    margin: 5px;
+}
+
+img.friend-avatar{
+    height: 50px;
+}
+
+button.btn-change-bg{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+div#imagePreviewWindow{
+    min-height: 100px;
+    border: 1px dashed #888888;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+p.imagePreviewHolder{
+    font-size: 20px;
+}
+
+img.image-preview{
+    width: 100%;
+}
+
